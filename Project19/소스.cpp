@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main(void)
+int main()
 {
 	int i, j;
 	for (i = 0; i < 5; i++)
@@ -16,4 +16,5 @@ int main(void)
 				printf("%d", j);
 		} puts("");
 	}
+	return 0;
 }
